@@ -162,7 +162,7 @@ shopt -s histappend
 
 # Make prompt informative
 # See:  http://www.ukuug.org/events/linux2003/papers/bash_tips/
-PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
+PS1="\[\033[0;36m\][\u@\h:\w]$\[\033[0m\]"
 
 ## -----------------------
 ## -- 2) Set up aliases --
@@ -190,7 +190,7 @@ alias treeacl='tree -A -C -L 2'
 
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
-alias eqq='emacs -nw -Q' # No config and no X11
+alias emc='emacs -nw -Q' # No config and no X11
 export EDITOR='emacs -nw'
 export VISUAL='emacs -nw' 
 
